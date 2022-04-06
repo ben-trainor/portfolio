@@ -37,7 +37,7 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    color: #999;
 }
 
 .no-padding {
@@ -76,7 +76,7 @@ a {
 }
 
 .color {
-    color: #ffbf00;
+    color: #52c8ff;
     font-size: 11px;
 }
 
@@ -95,7 +95,7 @@ h3 {
 }
 
 h5 {
-    color: #ffbf00;
+    color: #52c8ff;
 }
 
 
@@ -137,7 +137,7 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #ffbf00;
+    background-color: #52c8ff;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -385,7 +385,7 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #ffbf00;
+    color: #52c8ff;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -439,7 +439,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #52c8ff !important;
 }
 
 .box-intro h5 {
@@ -712,7 +712,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #ffbf00;
+    background-color: #52c8ff;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -769,7 +769,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #ffbf00;
+    background-color: #52c8ff;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -879,7 +879,7 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #ffbf00;
+    background-color: #52c8ff;
     opacity: 1;
     color: #fff;
 }
@@ -1041,7 +1041,7 @@ footer img {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #ffbf00;
+    color: #52c8ff;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1062,7 +1062,7 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #ffbf00;
+    background: #52c8ff;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
@@ -1076,7 +1076,7 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #ffbf00;
+    background: #52c8ff;
     padding: 10px 50px;
     border-radius: 0;
     color: #fff;
@@ -1103,7 +1103,7 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #ffbf00;
+    color: #52c8ff;
 }
 
 
