@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,900;1,100;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 /* Text colors and fonts */
 
     /* Main fonts and colors */
     
-    html {
-        font-family: "Podkova", "Open Sans", "Helvetica";
+    html, body, p {
+        font-family: "Raleway", "Open Sans", "Helvetica";
     }
 
     .text-light {
         color: #fafafa;
+    }
+
+    .text-dark {
+        color: #222222;
     }
 
     .header-text > h1 {
@@ -55,6 +59,20 @@
 
     /* Header nav */
 
+    .dropdown-menu {
+        background-color: rgb(53, 53, 53);
+        border-radius: 4px;
+    }
+    .dropdown-menu > li:first-of-type > a:hover {
+        border-radius: 4px 4px 0px 0px;
+    }
+    .dropdown-menu > li:last-of-type > a:hover {
+        border-radius: 0px 0px 4px 4px;
+    }
+    .dropdown-item:hover {
+        background-color: rgb(71, 71, 71);
+    }
+
 
     /* Intro graphic */
 
@@ -74,8 +92,11 @@
 
     @media only screen and (max-width: 992px) and (min-width: 769px) {
 
+        .header-box {
+            height: 70vw;
+        }
         .header-text {
-            top: 35vh;
+            top: 35vw;
         }
     }
 
