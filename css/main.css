@@ -12,29 +12,89 @@
         color: #f3f3f3;
     }
 
+    h1 {
+        font-size: 60px;
+    }
+
+    .text-shadow {
+        text-shadow: 0px 3px 0px black;
+    }
+
 
     /* Links */
 
     .nav-item > .link-primary, .nav-item > .link-primary:visited {
         color: #c7fcff;
+        text-decoration: none;
     }
     .nav-item > .link-primary:hover, .nav-item > .link-primary:active {
         color: #9acdcf;
+        text-decoration: none;
     }
     
     .nav-item > .link-secondary, .nav-item > .link-secondary:visited {
         color: #c0aaf6;
+        text-decoration: none;
     }
     .nav-item > .link-secondary:hover, .nav-item > .link-secondary:active {
         color: #836bc0;
+        text-decoration: none;
     }
     
     .nav-item > .link-light, .nav-item > .link-light:visited {
         color: #f3f3f3;
+        text-decoration: none;
     }
     .nav-item > .link-light:hover, .nav-item > .link-light:active {
         color: #b4b4b4;
+        text-decoration: none;
     }
 
-    
 
+/* Boxes */
+
+    /* Header nav */
+
+
+    /* Intro graphic */
+
+    .header-box {
+        height: 60vw;
+        background-image: linear-gradient(rgb(123, 92, 59), rgb(123, 92, 59)), url('../img/coffee_shop.png');
+        filter: contrast(70%);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header-box::before {
+        filter: grayscale(90%);
+    }
+    .header-box-overlay {
+        background-color: darkgreen;
+    }
+    .header-text {
+        position: sticky;
+        top: 40vh;
+        margin-bottom: 10vh;
+    }
+
+    @media only screen and (max-width: 992px) and (min-width: 769px) {
+
+        .header-text {
+            top: 35vh;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .header-box {
+            height: 80vw;
+        }
+        .header-text {
+            position: sticky;
+            top: 40vw;
+            margin-bottom: 10vh;
+        }
+    }
+    
+    
