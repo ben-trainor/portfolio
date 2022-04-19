@@ -58,6 +58,14 @@
         text-decoration: none;
     }
 
+    .article-link {
+        text-decoration: none;
+        transition-duration: .2s;
+    }
+    .article-link:hover {
+        filter: brightness(.75);
+    }
+
 
 /* Boxes */
 
@@ -135,6 +143,14 @@
 
     #home_thirdArticle {
         background-image: url('../img/coffee_shop.jpg');
+    }
+
+    #home_fourthArticle {
+        background-image: url('../img/lens_cap.jpg');
+    }
+
+    #home_fifthArticle {
+        background-image: url('../img/cardinal_ball.jpg');
     }
 
 
