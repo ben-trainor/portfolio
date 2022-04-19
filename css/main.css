@@ -24,6 +24,10 @@
         text-shadow: 0px 3px 0px black;
     }
 
+    .bg-darker {
+        background-color: #18181a;
+    }
+
 
     /* Links */
 
@@ -78,9 +82,8 @@
 
     .header-box {
         height: 60vw;
-        background-image: linear-gradient(rgb(123, 92, 59), rgb(123, 92, 59)), url('../img/coffee_shop.png');
-        filter: contrast(70%);
-        background-blend-mode: overlay;
+        background-image: linear-gradient(rgba(123, 92, 59, 0.5), rgba(123, 92, 59, 0.5)), url('../img/coffee_shop.jpg');
+        /* background-blend-mode: darken; */
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -110,6 +113,46 @@
             top: 40vw;
             margin-bottom: 10vh;
         }
+    }
+
+    /* Home page bios */
+
+    #home_firstArticle {
+        background-image: url('../img/lens_cap.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 400px;
+        max-height: 600px;
+    }
+
+    #home_secondArticle {
+        background-image: url('../img/cardinal_ball.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: -250px;
+        min-height: 400px;
+        max-height: 600px;
+    }
+
+        @media only screen and (max-width: 1000px) and (min-width: 670px) {
+            #home_secondArticle {
+                background-position-y: -150px;
+            }
+        }
+        @media only screen and (max-width: 850px) {
+            #home_secondArticle {
+                background-position-y: -100px;
+            }
+        }
+
+
+    /* Backgrounds */
+
+    .bg-dark-25 {
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.25);
     }
     
     
