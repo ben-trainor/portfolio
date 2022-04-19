@@ -117,35 +117,25 @@
 
     /* Home page bios */
 
-    #home_firstArticle {
-        background-image: url('../img/lens_cap.jpg');
+    .home-article {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         min-height: 400px;
         max-height: 600px;
+    }
+
+    #home_firstArticle {
+        background-image: url('../img/lens_cap.jpg');
     }
 
     #home_secondArticle {
         background-image: url('../img/cardinal_ball.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-y: -250px;
-        min-height: 400px;
-        max-height: 600px;
     }
 
-        @media only screen and (max-width: 1000px) and (min-width: 670px) {
-            #home_secondArticle {
-                background-position-y: -150px;
-            }
-        }
-        @media only screen and (max-width: 850px) {
-            #home_secondArticle {
-                background-position-y: -100px;
-            }
-        }
+    #home_thirdArticle {
+        background-image: url('../img/coffee_shop.jpg');
+    }
 
 
     /* Backgrounds */
