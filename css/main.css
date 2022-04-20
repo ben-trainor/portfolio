@@ -120,7 +120,7 @@
 
     .header-box {
         height: 60vw;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(54, 42, 30, 0.5)), url('../img/ben_trainor/coffee_shop.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(54, 42, 30, 0.5)), url('../img/ben_trainor/coffee_shop_resized.webp');
         /* background-blend-mode: darken; */
         background-repeat: no-repeat;
         background-size: cover;
