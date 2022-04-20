@@ -153,35 +153,6 @@
         }
     }
 
-    /* Home page bios */
-
-    .home-article {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        min-height: 400px;
-        max-height: 600px;
-    }
-
-    #home_bioArticle {
-        background-image: url('../img/ben_trainor/lens_cap.jpg');
-    }
-
-    #home_musicArticle {
-        background-image: url('../img/ben_trainor/disposable_car_top.jpg');
-    }
-
-    #home_soundArticle {
-        background-image: url('../img/external/goldpark.jpeg');
-    }
-
-    #home_visualArticle {
-        background-image: url('../img/portraits/esther_ring.jpg');
-    }
-
-    #home_guitarArticle {
-        background-image: url('../img/ben_trainor/Paper\ Watch\ We\ Are\ the\ Swimmers\ 2_00596.jpg');
-    }
 
     /* Contact form */
 
@@ -200,5 +171,7 @@
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.25);
 }
+
+
     
     
