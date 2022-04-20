@@ -54,29 +54,29 @@
 
     /* Links */
 
-    .nav-item > .link-primary, .nav-item > .link-primary:visited {
+    .navbar-nav > .nav-item > .link-primary, .navbar-nav > .nav-item > .link-primary:visited {
         color: #c7fcff;
         text-decoration: none;
     }
-    .nav-item > .link-primary:hover, .nav-item > .link-primary:active {
+    .navbar-nav > .nav-item > .link-primary:hover, .navbar-nav > .nav-item > .link-primary:active {
         color: #9acdcf;
         text-decoration: none;
     }
     
-    .nav-item > .link-secondary, .nav-item > .link-secondary:visited {
+    .navbar-nav > .nav-item > .link-secondary, .navbar-nav > .nav-item > .link-secondary:visited {
         color: #c0aaf6;
         text-decoration: none;
     }
-    .nav-item > .link-secondary:hover, .nav-item > .link-secondary:active {
+    .navbar-nav > .nav-item > .link-secondary:hover, .navbar-nav > .nav-item > .link-secondary:active {
         color: #836bc0;
         text-decoration: none;
     }
     
-    .nav-item > .link-light, .nav-item > .link-light:visited {
+    .navbar-nav > .nav-item > .link-light, .navbar-nav > .nav-item > .link-light:visited {
         color: #fafafa;
         text-decoration: none;
     }
-    .nav-item > .link-light:hover, .nav-item > .link-light:active {
+    .navbar-nav > .nav-item > .link-light:hover, .navbar-nav > .nav-item > .link-light:active {
         color: #b4b4b4;
         text-decoration: none;
     }
