@@ -183,12 +183,22 @@
         background-image: url('../img/cardinal_ball.jpg');
     }
 
+    /* Contact form */
 
-    /* Backgrounds */
-
-    .bg-dark-25 {
-        z-index: 10;
-        background-color: rgba(0, 0, 0, 0.25);
+    #modal_contact {
+        margin-top: 1vh;
+        margin-bottom: 0px;
     }
+    #iframe_contact {
+        height: 83vh;
+    }
+
+
+/* Backgrounds */
+
+.bg-dark-25 {
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.25);
+}
     
     
