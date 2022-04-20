@@ -4,7 +4,7 @@
 
     /* Main fonts and colors */
     
-    html, body, p, button {
+    html, body, div, p, button {
         font-family: "Raleway", "Open Sans", "Helvetica";
     }
 
@@ -24,6 +24,11 @@
         font-weight: bold;
         background-color: black;
         transition: .2s;
+        box-shadow: none;
+        border: 1px solid grey;
+    }
+    button.submit-button:hover {
+        border: 1px solid rgb(108, 199, 108);
     }
 
     .text-shadow {
