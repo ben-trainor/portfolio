@@ -120,7 +120,7 @@
 
     .header-box {
         height: 60vw;
-        background-image: linear-gradient(rgba(123, 92, 59, 0.5), rgba(123, 92, 59, 0.5)), url('../img/coffee_shop.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(54, 42, 30, 0.5)), url('../img/ben_trainor/coffee_shop.jpg');
         /* background-blend-mode: darken; */
         background-repeat: no-repeat;
         background-size: cover;
@@ -163,24 +163,24 @@
         max-height: 600px;
     }
 
-    #home_firstArticle {
-        background-image: url('../img/lens_cap.jpg');
+    #home_bioArticle {
+        background-image: url('../img/ben_trainor/lens_cap.jpg');
     }
 
-    #home_secondArticle {
-        background-image: url('../img/cardinal_ball.jpg');
+    #home_musicArticle {
+        background-image: url('../img/ben_trainor/disposable_car_top.jpg');
     }
 
-    #home_thirdArticle {
-        background-image: url('../img/coffee_shop.jpg');
+    #home_soundArticle {
+        background-image: url('../img/external/goldpark.jpeg');
     }
 
-    #home_fourthArticle {
-        background-image: url('../img/lens_cap.jpg');
+    #home_visualArticle {
+        background-image: url('../img/portraits/esther_ring.jpg');
     }
 
-    #home_fifthArticle {
-        background-image: url('../img/cardinal_ball.jpg');
+    #home_guitarArticle {
+        background-image: url('../img/ben_trainor/Paper\ Watch\ We\ Are\ the\ Swimmers\ 2_00596.jpg');
     }
 
     /* Contact form */
