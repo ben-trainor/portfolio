@@ -1,4 +1,6 @@
 
+// Script for dynamically setting background photo attributes for images on photography portfolio page
+
 var portraits = document.getElementsByClassName("photo-portrait");
 var naturePhotos = document.getElementsByClassName("photo-nature");
 var sourceFile;

@@ -1,5 +1,4 @@
 
-
 /* Home page bios */
 
 .home-article {
@@ -79,4 +78,48 @@
     /* transform: scale(0.98); */
     transform: translateZ(-20px);
     /* border: 4px solid black; */
+}
+
+
+/* Highlighted photo modal */
+
+/* .modal-focus {
+    border: 1px solid red;
+} */
+.modal-focus > .modal-dialog {
+    /* border: 2px solid blue; */
+    margin-top: 15vh;
+    padding: 0;
+    max-height: 70vh;
+    width: 0;
+}
+.modal-focus > .modal-dialog > .modal-content {
+    /* border: 1px solid green; */
+    background-color: none;
+    /* width: fit-content; */
+}
+.modal-focus > .modal-dialog > .modal-content > img {
+    /* border: 1px solid sandybrown; */
+    width: fit-content;
+    height: auto;
+    max-width: 90vw;
+    max-height: 70vh;
+}
+@media only screen and (max-width: 575px) {
+    .modal-focus > .modal-dialog {
+        margin: 0;
+        margin-top: 5vh;
+        margin-left: 2.5vw;
+        padding: 0;
+        width: auto;
+        max-width: 90vw;
+        max-height: 100vh;
+    }
+    .modal-focus > .modal-dialog > .modal-content > img {
+        /* border: 1px solid sandybrown; */
+        width: fit-content;
+        height: auto;
+        max-width: 90vw;
+        max-height: 90vh;
+    }
 }
