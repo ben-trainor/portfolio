@@ -132,5 +132,5 @@
 #contact_titleArticle {
     background-image: url('../img/ben_trainor/studio_photo.jpg');
     background-position-y: 20%;
-    filter: grayscale(.2) brightness(1.22);
+    filter: grayscale(.35) brightness(1.22);
 }
