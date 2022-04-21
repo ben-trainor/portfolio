@@ -130,5 +130,7 @@
 /* Contact page */
 
 #contact_titleArticle {
-    background-image: url('../img/ben_trainor/coffee_shop_resized.jpg');
+    background-image: url('../img/ben_trainor/studio_photo.jpg');
+    background-position-y: 20%;
+    filter: grayscale(.1) brightness(1.3);
 }
