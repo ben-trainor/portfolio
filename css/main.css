@@ -96,6 +96,17 @@
         filter: brightness(.75);
     }
 
+        /* Social Icons */
+
+        .social-icon {
+            transition-duration: .2s;
+            filter: invert(1);
+            width: 50px;
+        }
+        .social-icon:hover {
+            filter: invert(.8);
+        }
+
 
 /* Boxes */
 
