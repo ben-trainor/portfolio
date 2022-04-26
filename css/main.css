@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+/* Testing borders */
+
+.border-red {
+    border: 1px solid red;
+}
+.border-blue {
+    border: 1px solid blue;
+}
+.border-green {
+    border: 1px solid green;
+}
+
+
 /* Text colors and fonts */
 
     /* Main fonts and colors */
@@ -54,22 +67,26 @@
 
     /* Links */
 
+    .link-primary, .link-primary:visited,
     .navbar-nav > .nav-item > .link-primary, .navbar-nav > .nav-item > .link-primary:visited,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-primary, .navbar-nav > .nav-item > .link-primary:visited {
         color: #c7fcff;
         text-decoration: none;
     }
+    .link-primary, .link-primary:visited,
     .navbar-nav > .nav-item > .link-primary:hover, .navbar-nav > .nav-item > .link-primary:active,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-primary:hover, .navbar-nav > .nav-item > .link-primary:active {
         color: #9acdcf;
         text-decoration: none;
     }
     
+    .link-secondary, .link-secondary:visited,
     .navbar-nav > .nav-item > .link-secondary, .navbar-nav > .nav-item > .link-secondary:visited,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-secondary, .navbar-nav > .nav-item > .link-secondary:visited {
         color: #c0aaf6;
         text-decoration: none;
     }
+    .link-secondary:hover, .link-secondary:active,
     .navbar-nav > .nav-item > .link-secondary:hover, .navbar-nav > .nav-item > .link-secondary:active,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-secondary:hover, .navbar-nav > .nav-item > .link-secondary:active {
         color: #836bc0;
@@ -121,7 +138,7 @@
     }
 
     .dropdown-menu {
-        background-color: rgb(50, 48, 57);
+        background-color: rgb(50, 50, 55);
         border-radius: 4px;
     }
     .dropdown-menu > li:first-of-type > a:hover {
@@ -196,6 +213,31 @@
         }
     }
 
+
+    /* Music page */
+
+    .music-section, .album-cover-container {
+        max-height: 100%;
+    }
+    .music-section img, .album-cover-container img {
+        max-height: 100%;
+    }
+    @media only screen and (max-width: 767px) {
+        .music-section {
+            max-height: 200px;
+        }
+        .album-cover-container {
+            max-height: 400px;
+        }
+    }
+
+    .album-title {
+        /* min-height: 90px; */
+    }
+    .album-description {
+        list-style-type: none;
+    }
+    
 
 /* Backgrounds */
 
