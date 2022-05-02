@@ -70,10 +70,11 @@
     .link-primary, .link-primary:visited,
     .navbar-nav > .nav-item > .link-primary, .navbar-nav > .nav-item > .link-primary:visited,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-primary, .navbar-nav > .nav-item > .link-primary:visited {
+        transition-duration: .2s;
         color: #c7fcff;
         text-decoration: none;
     }
-    .link-primary, .link-primary:visited,
+    .link-primary:hover, .link-primary:active,
     .navbar-nav > .nav-item > .link-primary:hover, .navbar-nav > .nav-item > .link-primary:active,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-primary:hover, .navbar-nav > .nav-item > .link-primary:active {
         color: #9acdcf;
@@ -83,6 +84,7 @@
     .link-secondary, .link-secondary:visited,
     .navbar-nav > .nav-item > .link-secondary, .navbar-nav > .nav-item > .link-secondary:visited,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-secondary, .navbar-nav > .nav-item > .link-secondary:visited {
+        transition-duration: .2s;
         color: #c0aaf6;
         text-decoration: none;
     }
@@ -219,7 +221,7 @@
     .music-section, .album-cover-container {
         max-height: 100%;
     }
-    .music-section img, .album-cover-container img {
+    .music-section img, .music-section .img-fluid, .album-cover-container img {
         max-height: 100%;
     }
     @media only screen and (max-width: 767px) {
