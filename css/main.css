@@ -67,6 +67,7 @@
 
     /* Links */
 
+    /* Blue links */
     .link-primary, .link-primary:visited,
     .navbar-nav > .nav-item > .link-primary, .navbar-nav > .nav-item > .link-primary:visited,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-primary, .navbar-nav > .nav-item > .link-primary:visited {
@@ -81,6 +82,7 @@
         text-decoration: none;
     }
     
+    /* Purple links */
     .link-secondary, .link-secondary:visited,
     .navbar-nav > .nav-item > .link-secondary, .navbar-nav > .nav-item > .link-secondary:visited,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-secondary, .navbar-nav > .nav-item > .link-secondary:visited {
@@ -91,7 +93,22 @@
     .link-secondary:hover, .link-secondary:active,
     .navbar-nav > .nav-item > .link-secondary:hover, .navbar-nav > .nav-item > .link-secondary:active,
     .navbar-nav > .nav-item > .dropdown-menu > li > .link-secondary:hover, .navbar-nav > .nav-item > .link-secondary:active {
-        color: #836bc0;
+        color: #6e4ac9;
+        text-decoration: none;
+    }
+
+    /* Darker purple links */
+    .link-secondary-dark, .link-secondary-dark:visited,
+    .navbar-nav > .nav-item > .link-secondary-dark, .navbar-nav > .nav-item > .link-secondary-dark:visited,
+    .navbar-nav > .nav-item > .dropdown-menu > li > .link-secondary-dark, .navbar-nav > .nav-item > .link-secondary-dark:visited {
+        transition-duration: .2s;
+        color: #8169bc;
+        text-decoration: none;
+    }
+    .link-secondary-dark:hover, .link-secondary-dark:active,
+    .navbar-nav > .nav-item > .link-secondary-dark:hover, .navbar-nav > .nav-item > .link-secondary-dark:active,
+    .navbar-nav > .nav-item > .dropdown-menu > li > .link-secondary-dark:hover, .navbar-nav > .nav-item > .link-secondary-dark:active {
+        color: #41306b;
         text-decoration: none;
     }
     
