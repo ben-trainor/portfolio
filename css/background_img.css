@@ -9,6 +9,16 @@
     max-height: 600px;
 }
 
+.home-article > div > h4 {
+    opacity: 0%;
+    transform: translateY(100px);
+    transition-duration: .3s;
+}
+.home-article:hover > div > h4 {
+    transform: translateY(0px);
+    opacity: 100%;
+}
+
 #home_bioArticle {
     background-image: url('../img/ben_trainor/lens_cap_resized.jpg');
 }

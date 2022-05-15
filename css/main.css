@@ -116,7 +116,7 @@
         transition-duration: .2s;
     }
     .article-link:hover {
-        filter: brightness(.75);
+        /* filter: brightness(.75); */
     }
 
         /* Social Icons */
@@ -250,6 +250,14 @@
 .bg-dark-50 {
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.50);
+}
+.bg-dark-50-animated {
+    transition-duration: .3s;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.bg-dark-50-animated:hover {
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 
