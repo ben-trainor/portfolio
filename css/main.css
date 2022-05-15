@@ -133,6 +133,14 @@
 
 /* Boxes */
 
+    /* Widths */
+
+    @media only screen and (max-width: 992px) {
+        .w-md-100 {
+            width: 100%!important;
+        }
+    }
+
     /* Header nav */
 
     .navbar .navbar-nav {
