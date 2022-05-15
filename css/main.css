@@ -115,9 +115,9 @@
         text-decoration: none;
         transition-duration: .2s;
     }
-    .article-link:hover {
-        /* filter: brightness(.75); */
-    }
+    /* .article-link:hover {
+        filter: brightness(.75);
+    } */
 
         /* Social Icons */
 
@@ -233,9 +233,9 @@
         }
     }
 
-    .album-title {
-        /* min-height: 90px; */
-    }
+    /* .album-title {
+        min-height: 90px;
+    } */
     .album-description {
         list-style-type: none;
     }
