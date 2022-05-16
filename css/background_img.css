@@ -80,6 +80,18 @@
         transform: translateZ(-20px);
         /* border: 4px solid black; */
     }
+    @media only screen and (max-width: 768px) {
+        .photo-portrait {
+            min-height: 450px;
+            max-height: 500px;
+        }
+    }
+    @media only screen and (max-width: 576px) {
+        .photo-portrait {
+            min-height: 300px;
+            max-height: 500px;
+        }
+    }
 
     .photo-nature {
         /* z-index: 10; */
@@ -96,6 +108,18 @@
         /* transform: scale(0.98); */
         transform: translateZ(-20px);
         /* border: 4px solid black; */
+    }
+    @media only screen and (max-width: 768px) {
+        .photo-nature {
+            min-height: 400px;
+            max-height: 500px;
+        }
+    }
+    @media only screen and (max-width: 576px) {
+        .photo-nature {
+            min-height: 300px;
+            max-height: 500px;
+        }
     }
 
 

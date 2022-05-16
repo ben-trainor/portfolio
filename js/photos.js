@@ -9,7 +9,7 @@ for (let i = 0; i < portraits.length; i++) {
     sourceFile = portraits.item(i).firstElementChild.innerHTML;
     console.log("Setting background image to " + sourceFile);
     portraits.item(i).style.backgroundImage = "url(" + sourceFile + ")";
-    portraits.item(i).parentElement.classList.add("col-lg-4", "col-sm-6", "p-0");
+    portraits.item(i).parentElement.classList.add("col-lg-4", "col-6", "p-0");
 }
 
 for (let i = 0; i < naturePhotos.length; i++) {
